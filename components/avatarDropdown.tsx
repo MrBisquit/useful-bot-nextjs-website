@@ -46,13 +46,13 @@ export function AvatarDropdown() {
             <DropdownMenuContent align="end">
                 <DropdownMenuGroup>
                     <DropdownMenuItem onClick={GoToHome()}>
-                        <Home className="mr-2 h-4 w-4"></Home> <span>Home</span>
+                        <Home className="mr-2 h-4 w-4"></Home> Home
                     </DropdownMenuItem>
                     <DropdownMenuItem onClick={GoToSettings()}>
-                        <Settings className="mr-2 h-4 w-4"></Settings> <span>Settings</span>
+                        <Settings className="mr-2 h-4 w-4"></Settings> Settings
                     </DropdownMenuItem>
                     <DropdownMenuItem>
-                        <LayoutDashboard className="mr-2 h-4 w-4"></LayoutDashboard> <span>Dashboard</span>
+                        <LayoutDashboard className="mr-2 h-4 w-4"></LayoutDashboard> Dashboard
                     </DropdownMenuItem>
                 </DropdownMenuGroup>
                 <DropdownMenuSeparator></DropdownMenuSeparator>

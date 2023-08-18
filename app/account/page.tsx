@@ -14,6 +14,7 @@ export default function Home() {
           <AvatarDropdown />
         </div>
       </div>
+      <h1>Account</h1>
     </main>
   )
 }
